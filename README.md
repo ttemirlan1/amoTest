@@ -9,10 +9,10 @@ Docker
 Установка и Запуск
 Клонировать репозиторий:
 
-git clone [URL репозитория]
+git clone (https://github.com/ttemirlan1/amoTest)
 Перейти в директорию проекта:
 
-cd [Название директории]
+cd amoTest
 Установить зависимости:
 
 npm install
