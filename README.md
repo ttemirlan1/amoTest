@@ -9,28 +9,18 @@ Docker
 Установка и Запуск
 Клонировать репозиторий:
 
-bash
-Copy code
 git clone [URL репозитория]
 Перейти в директорию проекта:
 
-bash
-Copy code
 cd [Название директории]
 Установить зависимости:
 
-bash
-Copy code
 npm install
 (Опционально) Запустить в Docker:
 
-bash
-Copy code
 docker-compose up
 Или запустить локально:
 
-bash
-Copy code
 npm start
 Использование
 Отправить GET запрос на http://localhost:3000/createOrUpdateContact с параметрами:
@@ -39,3 +29,4 @@ name: ФИО контакта
 email: Email контакта
 phone: Телефон контакта
 Пример:
+curl "http://localhost:3000/createOrUpdateContact?name=John%20Doe&email=johndoe@example.com&phone=1234567890"
