@@ -1,0 +1,16 @@
+{
+  "name": "amotest",
+  "version": "1.0.0",
+  "description": "AmoCRM API Service\r Описание\r Back-end сервис для работы с API AmoCRM. Реализует метод, который принимает GET запрос и на основе входных данных обновляет или создает новый контакт в AmoCRM, а также создает новую сделку для этого контакта.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.5.0",
+    "express": "^4.18.2"
+  }
+}
